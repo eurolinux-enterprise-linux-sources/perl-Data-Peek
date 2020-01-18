@@ -1,6 +1,6 @@
 Name:           perl-Data-Peek
 Version:        0.38
-Release:        1%{?dist}
+Release:        3%{?dist}
 Summary:        Collection of low-level debug facilities
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -54,6 +54,12 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.38-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.38-2
+- Mass rebuild 2013-12-27
+
 * Fri Oct 19 2012 Marcela Mašláňová <mmaslano@redhat.com> 0.38-1
 - Update to 0.38
 
